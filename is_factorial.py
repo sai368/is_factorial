@@ -1,3 +1,4 @@
+num = int(input("enter the value of num"))
 def is_factorial(num):
     fact = 1
     i = 1
@@ -10,3 +11,6 @@ def is_factorial(num):
             return False
         i += 1
     return False
+
+res = is_factorial()
+print(res)   
